@@ -1,0 +1,7 @@
+services:
+  notify:
+    image: aicnal/airnotfy:latest
+    environment:
+      - barkKey =
+      - airKey = 
+    restart: unless-stopped

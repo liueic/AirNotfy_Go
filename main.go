@@ -183,7 +183,7 @@ func main() {
 			} else if quality >= 5 {
 				pushAnnounce("出行建议", "当前空气质量为重度或严重污染，建议尽量不要外出，当前AQI为："+strconv.Itoa(AQI))
 			}
-			time.Sleep(1 * time.Second)
+			time.Sleep(1 * time.Hour)
 			fmt.Println("开始下一次检查")
 		}
 	}
